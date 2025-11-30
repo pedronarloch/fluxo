@@ -1,0 +1,22 @@
+[project]
+name = "fluxo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipywidgets>=8.1.8",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.7",
+    "mlflow>=3.6.0",
+    "mlforecast>=1.0.2",
+    "pydantic>=2.12.4",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.5",
+]
+
+[dependency-groups]
+dev = [
+    "datasetsforecast>=1.0.0",
+    "notebook>=7.5.0",
+]
